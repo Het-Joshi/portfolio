@@ -1,0 +1,72 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: #EEEEEE;
+}
+h1,h2,h3{
+    font-family: 'Roboto Mono', monospace;
+}
+.navigation{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    background-color: #674747;
+    font-weight: 700;
+    margin-bottom: 1.5%;
+    color: azure;
+}
+.header{
+    background-color: #829460;
+    padding: 2%;
+}
+.title{
+    font-family: 'Lobster', cursive;
+    font-size: 4rem;
+    margin: 2%;
+}
+.title:hover{
+    color: powderblue;
+}
+.section-heading{
+    font-size: 3rem;
+    background-color: darksalmon;
+    margin-bottom: 1%;
+    color: black;
+}
+.section-description{
+    margin:2%;
+    padding: 2%;
+    font-size: 1.25rem;
+}
+.partition1{
+    background-color: #F96666;
+    padding: 2%;
+    font-size: 1.25rem;
+    margin: 2%;
+}
+.partition2{
+    background-color: #829460;
+    padding: 2%;
+    margin: 2%;
+}
+.projects{
+    background-color: #674747;
+    padding: 2%;
+    margin: 2%;
+    color: aliceblue;
+    font-size: 1.25rem;
+}
+.pfp{
+    border-radius: 100%;
+    width:30%;
+    box-shadow: 5px 5px 5px grey;
+}
+.pfp-container{
+    text-align: center;
+    padding: 3%;
+}
+.footer{
+    margin: 0%;
+    padding: 2%;
+}
+i{
+    margin:2%;
+}
