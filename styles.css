@@ -1,6 +1,7 @@
 body{
     font-family: 'Montserrat', sans-serif;
     background-color: #EEEEEE;
+    background-image: url(bgimage2.jpg);
 }
 h1,h2,h3{
     font-family: 'Roboto Mono', monospace;
@@ -8,51 +9,77 @@ h1,h2,h3{
 .navigation{
     font-family: 'Montserrat', sans-serif;
     font-size: 1.5rem;
-    background-color: #674747;
+    background-color: rgba(68, 46, 46, 0.8);
     font-weight: 700;
     margin-bottom: 1.5%;
     color: azure;
 }
-.header{
-    background-color: #829460;
-    padding: 2%;
+.sticky{
+    position: fixed;
+    top:0;
+    width:100%;
+    
 }
+
+.header{
+    background-color: rgb(130, 148, 96,0.5);
+    padding: 2%;
+    border: 2px solid black;
+    margin-top: 90px;
+}
+
 .title{
     font-family: 'Lobster', cursive;
     font-size: 4rem;
     margin: 2%;
+    
 }
 .title:hover{
-    color: powderblue;
+    color: rgb(27, 144, 159);
+    transition-duration: 0.5s;
+    
 }
 .section-heading{
     font-size: 3rem;
-    background-color: darksalmon;
+    background-color: rgba(218, 112, 76, 0.5);
     margin-bottom: 1%;
-    color: black;
+    color: rgb(0, 0, 0);
+    padding:1%;
+    text-align: center;
+    border: 2px solid black;  
+}
+.section-heading:hover{
+    color:rgb(255, 255, 255);
+    transition: 0.5s;
 }
 .section-description{
     margin:2%;
     padding: 2%;
-    font-size: 1.25rem;
+    font-size: 1.7rem;
+    font-weight: bold;
 }
 .partition1{
-    background-color: #F96666;
+    background-color: rgb(255, 128, 128,0.5);
     padding: 2%;
     font-size: 1.25rem;
     margin: 2%;
+    border: 2px solid black;
+
 }
 .partition2{
-    background-color: #829460;
+    background-color: rgb(130, 148, 96,0.5);
     padding: 2%;
     margin: 2%;
+    border: 2px solid black;
+    font-size: 1.25rem;
 }
 .projects{
-    background-color: #674747;
+    background-color: rgb(103, 71, 71,0.5);
     padding: 2%;
     margin: 2%;
-    color: aliceblue;
+    color: rgb(0, 0, 0);
     font-size: 1.25rem;
+    border: 2px solid black;
 }
 .pfp{
     border-radius: 100%;
